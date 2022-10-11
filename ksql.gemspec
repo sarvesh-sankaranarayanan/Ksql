@@ -30,6 +30,6 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'activesupport', '>= 5'
+  spec.add_dependency 'activesupport', '>= 4'
   spec.add_dependency 'net-http2', '~> 0'
 end
